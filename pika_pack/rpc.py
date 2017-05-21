@@ -3,7 +3,7 @@ import pika
 import pyecho
 import uuid
 
-from exceptions import TooManyReconnectionAttempts
+from .exceptions import TooManyReconnectionAttempts
 
 
 class RPCBlockingConsumer(object):
